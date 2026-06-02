@@ -1,12 +1,12 @@
-const int PIN_SENSOR = 34;
+const int PIN_SENSOR = 33;
 const int PIN_BUZZER = 25;
 const unsigned long DEBOUNCE_MS = 150;
 const unsigned long FLUXO_JANELA_MS = 60000;
 const unsigned long BIP_MS = 50;
 
 const int AMOSTRAS_BASELINE = 200;
-const float MARGEM_SIGMA = 3.0;
-const int LIMIAR_MINIMO_ADC = 5;
+const float MARGEM_SIGMA = 12.0;
+const int LIMIAR_MINIMO_ADC = 16;
 const unsigned long JANELA_AMOSTRA_MS = 50;
 
 const bool MODO_DEBUG = true;
